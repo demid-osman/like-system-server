@@ -1,0 +1,26 @@
+{
+  "name": "like-system-server",
+  "version": "1.0.0",
+  "description": "Simple API for like system",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "decentraland",
+    "api"
+  ],
+  "author": "Demid Usmanov <demid.osman@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
