@@ -3,7 +3,6 @@ const app = express()
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const cors = require('cors')
-require('dotenv').config()
 
 // Routes
 const counterRoute = require('./routes/counter.route')
